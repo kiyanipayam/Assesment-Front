@@ -1,12 +1,8 @@
 import * as React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Button, Card, Container, Grid, IconButton, InputAdornment, TextField } from '@mui/material';
 import axios from 'axios';
 import { AuthContext } from '../../auth/context';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
 import Box from '@mui/material/Box';
-import { Search } from "@mui/icons-material";
 
 
 function Blogg() {
